@@ -59,6 +59,7 @@ module.exports = app => {
         ctx.body = app.CODE.ERROR_USERNAME;
         return
       }
+      // 传id类型
       if (!params.mood) {
         ctx.body = app.CODE.ERROR_MOOD;
         return
